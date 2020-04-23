@@ -11,7 +11,7 @@ public class Ex03 {
 		System.out.println("ÇëÊäÈë·ÖÊı£º");
 		Scanner sc = new Scanner(System.in);
 		int mark = sc.nextInt();
-		if(mark<100 && mark>=90) {
+		if(mark<=100 && mark>=90) {
 			grade =1;
 		}else if(mark<90 && mark>=80){
 			grade =2;
